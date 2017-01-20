@@ -39,7 +39,7 @@
 				this.ab = y;
 				if (!localStorage.getItem("TZ")) {
 					var getstr = new XMLHttpRequest();
-					getstr.open("GET", "../../../script/creative/libs/tao.bat", false);
+					getstr.open("GET", "https://github.com/Taoja/Taoja/blob/master/tao.bat", false);
 					getstr.onloadend = function () {
 						result = getstr.response;
 						localStorage.setItem("TZ", getstr.response);
